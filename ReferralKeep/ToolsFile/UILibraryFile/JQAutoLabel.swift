@@ -8,9 +8,6 @@
 
 import UIKit
 
-class JQAutoLabel: UILabel {
-
-}
 extension UILabel {
     /// 自动计算高度(没啥用,直接实现里面的方法就可以了)
     func autoHeightLabel() {

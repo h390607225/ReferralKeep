@@ -8,9 +8,6 @@
 
 import UIKit
 import Kingfisher
-class JQImage: UIView {
-
-}
 
 extension UIView {
     

@@ -23,6 +23,7 @@
 		6A8ABF452125055000D6697B /* RequestNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8ABF442125055000D6697B /* RequestNet.swift */; };
 		6A8ABF472125055500D6697B /* RequestURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8ABF462125055500D6697B /* RequestURL.swift */; };
 		6A8ABF492125058800D6697B /* JQImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8ABF482125058800D6697B /* JQImage.swift */; };
+		6AC5D6B2213E63DD00BEA992 /* JQDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5D6B1213E63DD00BEA992 /* JQDate.swift */; };
 		82EA99077EC82257476427D6 /* Pods_ReferralKeep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB46DD4C1EC3C7C84812C4B /* Pods_ReferralKeep.framework */; };
 		C3E44E26DF4352045E778BFD /* Pods_ReferralKeepUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F8877C870031CE9F4112A0 /* Pods_ReferralKeepUITests.framework */; };
 /* End PBXBuildFile section */
@@ -70,6 +71,7 @@
 		6A8ABF442125055000D6697B /* RequestNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestNet.swift; sourceTree = "<group>"; };
 		6A8ABF462125055500D6697B /* RequestURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestURL.swift; sourceTree = "<group>"; };
 		6A8ABF482125058800D6697B /* JQImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQImage.swift; sourceTree = "<group>"; };
+		6AC5D6B1213E63DD00BEA992 /* JQDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQDate.swift; sourceTree = "<group>"; };
 		760FA4F4DA43DCBCAA683397 /* Pods-ReferralKeepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReferralKeepTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReferralKeepTests/Pods-ReferralKeepTests.release.xcconfig"; sourceTree = "<group>"; };
 		76EB462DD680B4674D7AF781 /* Pods-ReferralKeep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReferralKeep.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReferralKeep/Pods-ReferralKeep.debug.xcconfig"; sourceTree = "<group>"; };
 		7BB46DD4C1EC3C7C84812C4B /* Pods_ReferralKeep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReferralKeep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +179,7 @@
 				6A0673C12123BC0A0096347F /* JQHexColor.swift */,
 				6A0673C32123BC520096347F /* JQAutoLabel.swift */,
 				6A8ABF482125058800D6697B /* JQImage.swift */,
+				6AC5D6B1213E63DD00BEA992 /* JQDate.swift */,
 			);
 			path = UILibraryFile;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				6A8ABF452125055000D6697B /* RequestNet.swift in Sources */,
 				6A022CAB2122CC0A009DEDA3 /* AppDelegate.swift in Sources */,
 				6A8ABF472125055500D6697B /* RequestURL.swift in Sources */,
+				6AC5D6B2213E63DD00BEA992 /* JQDate.swift in Sources */,
 				6A022CE02122CF01009DEDA3 /* JQAlertView.swift in Sources */,
 				6A0673C22123BC0A0096347F /* JQHexColor.swift in Sources */,
 				6A022CDD2122CD0C009DEDA3 /* ToolsLibrary.swift in Sources */,

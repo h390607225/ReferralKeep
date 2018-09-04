@@ -28,9 +28,6 @@ public var TOKEN = UserDefaults.standard.object(forKey: "token")
 public let DEVICEWIDTH_SCALE = WIDTH / 375.0
 
 
-
-
-
 class ToolsLibrary: NSObject {
 
     
@@ -66,3 +63,15 @@ class ToolsLibrary: NSObject {
         return cardText.evaluate(with:idCard)
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+

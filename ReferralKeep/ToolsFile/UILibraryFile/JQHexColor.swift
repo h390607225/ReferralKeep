@@ -8,10 +8,6 @@
 
 import UIKit
 
-class JQHexColor: UIColor {
-
-}
-
 extension UIColor {
     
     /// 颜色转化

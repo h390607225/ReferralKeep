@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let nowDateString = NSDate.DateToString(date: NSDate(), dateFormatter: "YYYY-MM-dd")
+        
+        print(nowDateString)
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
