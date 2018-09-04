@@ -27,6 +27,9 @@ public var TOKEN = UserDefaults.standard.object(forKey: "token")
 /// 屏幕宽度比
 public let DEVICEWIDTH_SCALE = WIDTH / 375.0
 
+/// 自定义输出
+public func ljqPrint(_ items : Any...) { print("测试数据  \(NSDate.getCurrentTime(formatter: "HH点mm分ss秒SSS毫秒")) 👑 \(items)") }
+
 
 class ToolsLibrary: NSObject {
 
@@ -62,6 +65,8 @@ class ToolsLibrary: NSObject {
         let cardText:NSPredicate = NSPredicate(format: "SELF MATCHES %@", cardRegex)
         return cardText.evaluate(with:idCard)
     }
+    
+    
 }
 
 
